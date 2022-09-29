@@ -20,12 +20,13 @@ img {
 
 h1 {
   font-size: 10rem;
-  color: #f2f2f2;
+  color: #165650;
+  text-align: center;
 }
 
 h2 {
   font-size: 2.5rem;
-  text-align: center;
+  padding-left: 2.5rem;
 }
 
 .grid {
@@ -39,6 +40,7 @@ h2 {
 .artwork {
   max-width: 1080px;
   margin: 0 auto;
+  background-color: #165650;
 }
 
 article {
@@ -57,13 +59,23 @@ article > img {
   gap: .5rem;
   justify-content: center;
   align-items: center;
-  border: 2px solid;
+  padding: .5rem;
+  border: 2px dashed #165650;
+  margin: 20px 10px;
 }
 
-.artwork {
-  background-color: #165650;
-  back
+.about-me-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
+
+.information {
+  gap: .5rem;
+  align-items: flex-start;
+  margin: 0;
+}
+
 work-details {
   display: flex;
   flex-direction: column;
@@ -85,4 +97,9 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   backgroun-size: cover;
+}
+
+footer {
+  background-color: #AFC9C7;
+  padding: 0.75rem;
 }
