@@ -1,3 +1,5 @@
+@import url(<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">);
+
 html {
   box-sizing: border-box;
 }
@@ -6,13 +8,68 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 100%;
+}
+
 h1 {
-  color
+  font-size: 10rem;
+  color: #f2f2f2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  text-align: center;
 }
 
 .grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.artwork {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+article {
+  border: 2px solid #00B9AC;
   display: flex;
-  gap: .5rem;
-  align-items: center;
-  margin-top: auto;
+  flex-direction: column;
+}
+
+article > img {
+  height: 15vw;
+  object-fit: cover;
+}
+
+
+work-details {
+  display: flex;
+  flex-direction: column;
+  padding: .5rem;
+}
+
+h3 {
+  flex-grow: 1;
+}
+
+.banner {
+  height: 80vh;
+  width: 100%;
+  background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  backgroun-size: cover;
+}
+
+
+
 }
