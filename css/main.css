@@ -32,6 +32,8 @@ h2 {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: 1fr 1fr 1fr;
+  padding: 1rem;
+  margin: 0.5rem;
 }
 
 .artwork {
@@ -50,15 +52,30 @@ article > img {
   object-fit: cover;
 }
 
+.about-me {
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+}
 
+.artwork {
+  background-color: #165650;
+  back
+}
 work-details {
   display: flex;
   flex-direction: column;
   padding: .5rem;
+  background-color: #AFC9C7;
 }
 
 h3 {
   flex-grow: 1;
+  font-style: italic;
+  colour: #165650;
+  padding-left: 0.5rem;
 }
 
 .banner {
@@ -68,8 +85,4 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   backgroun-size: cover;
-}
-
-
-
 }
