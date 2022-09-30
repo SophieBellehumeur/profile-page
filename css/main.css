@@ -18,6 +18,34 @@ img {
   max-width: 100%;
 }
 
+nav {
+  background-color: #3249AF;
+  text-decoration: none;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0.5rem;
+  list-style-type: none;
+}
+
+nav a:link {
+  color: #00B9AC;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 h1 {
   font-size: 10rem;
   color: #165650;
@@ -71,7 +99,6 @@ article > img {
   height: 40px;
   border-radius: 50%;
   margin: 0.5rem;
-
 }
 
 .information {
@@ -94,12 +121,14 @@ h3 {
 }
 
 .banner {
-  height: 80vh;
+  height: 70vh;
   width: 100%;
   background-image: url(https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-08/220805-border-collie-play-mn-1100-82d2f1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   backgroun-size: cover;
+  margin: 0 auto;
+  padding-top: 2rem;
 }
 
 footer {
