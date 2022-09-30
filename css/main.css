@@ -40,7 +40,8 @@ h2 {
 .artwork {
   max-width: 1080px;
   margin: 0 auto;
-  background-color: #165650;
+  background-color: #3249AF;
+  max-width: 1080px;
 }
 
 article {
@@ -61,13 +62,16 @@ article > img {
   align-items: center;
   padding: .5rem;
   border: 2px dashed #165650;
-  margin: 20px 10px;
+  margin: 0 auto;
+  max-width: 1080px;
 }
 
 .about-me-img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  margin: 0.5rem;
+
 }
 
 .information {
